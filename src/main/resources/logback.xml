@@ -17,7 +17,7 @@
     </appender>
 
     <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
-        <target>System.err</target>
+        <target>System.out</target>
         <encoder>
             <charset>UTF-8</charset>
             <pattern>%-5level[%file:%line] %msg%n</pattern>
@@ -26,6 +26,7 @@
 
     <logger name="com.lwerl.splattest" level="debug"/>
     <logger name="org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver" level="debug"/>
+    <logger name="org.hibernate" level="debug"/>
 
     <root level="INFO">
         <appender-ref ref="file"/>

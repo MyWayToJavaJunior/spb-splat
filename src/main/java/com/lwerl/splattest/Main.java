@@ -18,7 +18,5 @@ public class Main {
         logger.info(System.getProperty("rootpath"));
         ApplicationContext ctx =
                 new AnnotationConfigApplicationContext(AppConfig.class);
-        Path rootPath = ctx.getBean("rootPath", Path.class);
-        System.out.println(rootPath);
     }
 }

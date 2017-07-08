@@ -24,9 +24,9 @@
         </encoder>
     </appender>
 
-    <logger name="com.lwerl.splattest" level="debug"/>
-    <logger name="org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver" level="debug"/>
-    <logger name="org.hibernate" level="debug"/>
+    <logger name="com.lwerl.splattest" level="INFO"/>
+    <logger name="org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver" level="INFO"/>
+    <logger name="org.hibernate" level="INFO"/>
 
     <root level="INFO">
         <appender-ref ref="file"/>
